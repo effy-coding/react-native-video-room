@@ -1,0 +1,36 @@
+{
+  "name": "rtc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-webrtc": "^1.75.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.0",
+    "@babel/runtime": "7.6.0",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "24.9.0",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
