@@ -3,8 +3,7 @@ import {
   SafeAreaView,
   StyleSheet,
   View,
-  StatusBar,
-  Text
+  StatusBar
 } from 'react-native'
 
 import {
@@ -18,7 +17,6 @@ const App = () => {
       <StatusBar barStyle='dark-content' />
       <SafeAreaView>
         <View style={styles.body}>
-          <Text>Haha</Text>
           <WebRTC />
         </View>
       </SafeAreaView>
